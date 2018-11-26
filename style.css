@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+td {
+    border: 1px solid green;
+    margin: auto;
+    width: 50%;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+select {
+    width: 100%;
+}
+
+.calendarCell {
+    opacity: 1;
+    border: 0;
+}

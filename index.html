@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="wwwal2" content="Callendar">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>wwwal2</title>
+        <!-- LESS -->
+        <!-- <link rel="stylesheet/less" type="text/css" href="style.less" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js"></script> -->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="jsCalendar.css">
+        <script type="text/javascript" src="jsCalendar.js"></script>
+        </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <td id="headline" colspan="2">
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <form method="get">
+                            <fieldset>
+                                <legend>Datepicker v 1.0</legend>
+                                <select>
+                                    <option value="0">Today</option>
+                                    <option value="1">Yesterday</option>
+                                    <option value="7">Last 7 days</option>
+                                    <option value="30">last 30 days</option>
+                                    <option value="90">last 90 days</option>
+                                </select> 
+                                <select>
+                                    <option value="5">Timezone (GMT - 5.00) Eastern Time</option>
+                                    <option value="6">Timezone (GMT - 6.00) Eastern Time</option>
+                                    <option value="7">Timezone (GMT - 7.00) Eastern Time</option>
+                                    <option value="8">Timezone (GMT - 8.00) Eastern Time</option>
+                                    <option value="9">Timezone (GMT - 9.00) Eastern Time</option>
+                                </select> 
+                            </fieldset>
+                         </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        From
+                    </td>
+                    <td>
+                        To
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="btn1">
+                        </button>
+                    </td>
+                    <td>
+                        <button id="btn2">
+                        </button>
+                    </td>
+                    <tr>
+                        <td class="calendarCell">
+                            <div class="auto-jsCalendar"></div>
+                        </td>
+                        <td class="calendarCell">
+                            <div class="auto-jsCalendar"></div>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
